@@ -21,7 +21,7 @@ namespace GameHomework.Concrete
             }
             else
             {
-                throw new Exception("Kayıt Başarısız. Bilgilerinizi kontrol edin.");
+                Console.WriteLine("Kayıt Başarısız. Bilgilerinizi kontrol edin.");
             }
         }
 
